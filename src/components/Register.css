@@ -1,0 +1,27 @@
+.register-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.form2{
+    width: 30%;
+    height: auto;
+  
+    /* display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column; */
+}
+.input{
+    height: 40px;
+   
+}
+@media only screen and (min-width: 180px) and (max-width: 567px){
+    .form2{
+        width: 80%;
+    }
+}
+
