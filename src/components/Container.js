@@ -11,7 +11,7 @@ function Container() {
 
 
   useEffect(() =>{
-     fetch(`http://localhost:4000/api/news`,{
+     fetch(`https://news-backend-pg0o.onrender.com/api/news`,{
       headers:{
         'authorization':`Bearer ${JSON.parse(localStorage.getItem('news-user')).token}`
       }
