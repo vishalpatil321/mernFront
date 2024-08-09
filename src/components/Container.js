@@ -12,7 +12,7 @@ function Container() {
  const navigate = useNavigate();
 
   useEffect(() =>{
-     fetch(`https://newsapi.org/v2/everything?q=${category}&from=2024-7-today&apiKey=f88423e81ec9478c8b3c7a880566f7b9`)
+     fetch(`https://news-backend-pg0o.onrender.com/api/news`)
      .then((response) => response.json())
      .then((news)=>{
       console.log(news);
